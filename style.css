@@ -1,0 +1,48 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    padding-bottom: 30px;
+}
+li{
+    display: inline-block;
+    text-align: right;
+}
+nav{float: right;}
+h1{
+    text-align: center;
+}
+h2{padding-top: 30px;}
+h2, h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+main{
+    text-align: center;
+    display: block;
+    padding-top: 30px;
+}
+form{
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    background-color: whitesmoke;
+    align-content: center;
+}
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
+input, select{
+    width: 50%;
+    text-align: center;
+    height: 35px;
+}
+button{
+    width: 500px;
+    height: 35px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}

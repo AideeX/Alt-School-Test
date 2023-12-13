@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Checkout Page</title>
+</head>
+<body>
+    <header class="header-bar">
+        <img src="https://res.cloudinary.com/aidee/image/upload/v1702468212/wppusher-logo_copy_wnlv4q.svg" alt="WP Pusher Logo">
+        <nav>
+            <ul>
+                <li><a href="/download">Download</a></li>
+                <li><a href="/learn-more">Learn more</a></li>
+                <li><a href="/pricing">Pricing</a></li>
+                <li><a href="/help">Help</a></li>
+                <li class="account"><a href="/account" class="account">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-page">
+        <section class="left-section">
+            <h2>Checkout</h2>
+            <form action="" method="post">
+                <div class="top-form">
+                    <span>
+                        <img src="https://res.cloudinary.com/aidee/image/upload/v1702469310/counter_1_FILL0_wght400_GRAD0_opsz24_vx1bch.svg" alt="counter 1">
+                        <h5>Your Basic Information</h5>
+                    </span>
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="Jane">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Doe">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="janedoe@example.com">
+                </div>
+                <div class="lower-form">
+                    <span>
+                        <img src="https://res.cloudinary.com/aidee/image/upload/v1702470459/counter_2_FILL0_wght400_GRAD0_opsz24_iudwgz.svg" alt="counter 2">
+                        <h5>Your Payment Information</h5>
+                    </span>
+                    <span>
+                    <label for="credit-card">Credit Card</label>
+                    <input type="number" name="credit-card" id="credit-card" pattern="" placeholder="Card Number">
+                    <input type="number" name="expiry-date" id="expiry-date" placeholder="MM/YY">
+                    <input type="number" name="cvc" id="cvc" placeholder="CVC">
+                    </span>
+                </div>
+                <button>BUY WP PUSHER</button>
+                <span>
+                    <img src="https://res.cloudinary.com/aidee/image/upload/v1702471472/help_FILL0_wght400_GRAD0_opsz24_ztvvsk.svg" alt="help?">
+                    <p>Need any help? Don’t hesitate to contact support!</p>
+                </span>
+            </form>
+            <img src="https://res.cloudinary.com/aidee/image/upload/v1702469050/powered_by_stripe_hsal7e.svg" alt="Powered by Stripe">
+        </section>
+        <section class="right-section">
+            <h4>Freelancer</h4>
+            <h3>$ 99/year</h3>
+            <p>Automatically renews after 1 year</p>
+            <span>
+                <img src="https://res.cloudinary.com/aidee/image/upload/v1702473605/check_circle_FILL0_wght400_GRAD0_opsz24_emgnui.svg" alt="checkmark">
+                <p>Use on 5 client sites</p>
+            </span>
+            <span>
+                <img src="https://res.cloudinary.com/aidee/image/upload/v1702473605/check_circle_FILL0_wght400_GRAD0_opsz24_emgnui.svg" alt="checkmark">
+                <p>Private repositories</p>
+            </span>
+            <span>
+                <img src="https://res.cloudinary.com/aidee/image/upload/v1702473605/check_circle_FILL0_wght400_GRAD0_opsz24_emgnui.svg" alt="checkmark">
+                <p>Email support</p>
+            </span>
+            <p>Need 20 client sites?
+            <a href="">Switch to the Agency plan</a>.</p>
+            <blockquote>FTP is horrible to deal with. WP Pusher solves that issue, and the customer support is awesome!
+                <img src="https://res.cloudinary.com/aidee/image/upload/v1702474286/Bitmap_trcdvp.svg" alt=""> Kirk Beard
+            </blockquote>
+        </section>
+    </main>
+    <footer>
+            <p>&copy; 2018 WP Pusher IVS · Terms of Service</p>
+    </footer>
+</body>
+</html>
