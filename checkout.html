@@ -7,18 +7,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Checkout Page</title>
 </head>
 <body>
     <header class="header-bar">
-        <img src="https://res.cloudinary.com/aidee/image/upload/v1702468212/wppusher-logo_copy_wnlv4q.svg" alt="WP Pusher Logo">
+        <img src="https://res.cloudinary.com/aidee/image/upload/v1702468212/wppusher-logo_copy_wnlv4q.svg" alt="WP Pusher Logo" class="logo">
         <nav>
             <ul>
-                <li><a href="/download">Download</a></li>
-                <li><a href="/learn-more">Learn more</a></li>
-                <li><a href="/pricing">Pricing</a></li>
-                <li><a href="/help">Help</a></li>
-                <li class="account"><a href="/account" class="account">Account</a></li>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Learn more</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#" class="nav-button">Account</a></li>
             </ul>
         </nav>
     </header>
@@ -26,63 +28,60 @@
         <section class="left-section">
             <h2>Checkout</h2>
             <form action="" method="post">
+                <h5 class="num-one num-one-text"><span class="num-one numero">&#9312;</span> Your Basic Information</h5>
                 <div class="top-form">
-                    <span>
-                        <img src="https://res.cloudinary.com/aidee/image/upload/v1702469310/counter_1_FILL0_wght400_GRAD0_opsz24_vx1bch.svg" alt="counter 1">
-                        <h5>Your Basic Information</h5>
-                    </span>
-                    <label for="first-name">First Name</label>
-                    <input type="text" name="first-name" id="first-name" placeholder="Jane">
-                    <label for="last-name">Last Name</label>
-                    <input type="text" name="last-name" id="last-name" placeholder="Doe">
-                    <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" placeholder="janedoe@example.com">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Jane">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Doe">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="janedoe@example.com">
                 </div>
-                <div class="lower-form">
-                    <span>
-                        <img src="https://res.cloudinary.com/aidee/image/upload/v1702470459/counter_2_FILL0_wght400_GRAD0_opsz24_iudwgz.svg" alt="counter 2">
-                        <h5>Your Payment Information</h5>
-                    </span>
-                    <span>
+                <h5 class="num-two num-two-text"><span class="num-two numero">&#9313;</span> Your Payment Information</h5>
+                <div class="credit-label">
                     <label for="credit-card">Credit Card</label>
-                    <input type="number" name="credit-card" id="credit-card" pattern="" placeholder="Card Number">
-                    <input type="number" name="expiry-date" id="expiry-date" placeholder="MM/YY">
-                    <input type="number" name="cvc" id="cvc" placeholder="CVC">
-                    </span>
                 </div>
-                <button>BUY WP PUSHER</button>
-                <span>
-                    <img src="https://res.cloudinary.com/aidee/image/upload/v1702471472/help_FILL0_wght400_GRAD0_opsz24_ztvvsk.svg" alt="help?">
-                    <p>Need any help? Don’t hesitate to contact support!</p>
-                </span>
+                <div class="card-info">
+                    <input type="tel" name="credit-card" id="credit-card" inputmode="numeric" placeholder="Card Number">
+                    <input type="tel" name="expiry-date" id="expiry-date" inputmode="numeric" placeholder="MM/YY">
+                    <input type="tel" name="cvc" id="cvc" inputmode="numeric" placeholder="CVC">
+                </div>
+                <button class="button">BUY WP PUSHER</button>
+                <p class="help"><span class="material-symbols-outlined help-icon">help</span>Need any help? <span class="support">Don't hesitate to <a href="#" class="support-link">contact support</a>!</span></p>
             </form>
-            <img src="https://res.cloudinary.com/aidee/image/upload/v1702469050/powered_by_stripe_hsal7e.svg" alt="Powered by Stripe">
+            <img class="stripe" src="https://res.cloudinary.com/aidee/image/upload/v1702469050/powered_by_stripe_hsal7e.svg" alt="Powered by Stripe">
         </section>
         <section class="right-section">
-            <h4>Freelancer</h4>
-            <h3>$ 99/year</h3>
-            <p>Automatically renews after 1 year</p>
-            <span>
-                <img src="https://res.cloudinary.com/aidee/image/upload/v1702473605/check_circle_FILL0_wght400_GRAD0_opsz24_emgnui.svg" alt="checkmark">
-                <p>Use on 5 client sites</p>
-            </span>
-            <span>
-                <img src="https://res.cloudinary.com/aidee/image/upload/v1702473605/check_circle_FILL0_wght400_GRAD0_opsz24_emgnui.svg" alt="checkmark">
-                <p>Private repositories</p>
-            </span>
-            <span>
-                <img src="https://res.cloudinary.com/aidee/image/upload/v1702473605/check_circle_FILL0_wght400_GRAD0_opsz24_emgnui.svg" alt="checkmark">
-                <p>Email support</p>
-            </span>
-            <p>Need 20 client sites?
-            <a href="">Switch to the Agency plan</a>.</p>
-            <blockquote>FTP is horrible to deal with. WP Pusher solves that issue, and the customer support is awesome!
-                <img src="https://res.cloudinary.com/aidee/image/upload/v1702474286/Bitmap_trcdvp.svg" alt=""> Kirk Beard
-            </blockquote>
+            <h6>Freelancer</h6>
+            <p class="price"><span class="dollar-sign">&#36;</span><span class="big-num">99</span><span class="year"> / year</span></p>
+            <p class="renewal">Automatically renews <br>after 1 year</p>
+            <div class="checkbox-container">
+                <div class="checkmark">
+                    <span class="material-symbols-outlined">check_circle</span>
+                    <p>Use on <span class="small-num">5</span> client sites</p>
+                </div>
+                <div class="checkmark">
+                    <span class="material-symbols-outlined">check_circle</span>
+                    <p>Private repositories</p>
+                </div>
+                <div class="checkmark">
+                    <span class="material-symbols-outlined">check_circle</span>
+                    <p>Email support</p>
+                </div>
+            </div>
+            <p class="clients">Need <span class="med-num">20</span> client sites?<a href="#" class="clients-link">Switch to the<span class="agency"> Agency</span> plan</a>.</p>
+            <hr>
+            <p class="quote">FTP is horrible to deal with. <span class="pusher">WP Pusher</span> solves that issue, and the customer support is awesome!</p>
+            <div class="pic">
+                <img class="man" src="https://res.cloudinary.com/aidee/image/upload/v1702474286/Bitmap_trcdvp.svg" alt=""> <p class="kirk">Kirk Beard
+                </p>
+
+            </div>
+        
         </section>
     </main>
     <footer>
-            <p>&copy; 2018 WP Pusher IVS · Terms of Service</p>
+            <p>&copy; 2018 WP Pusher IVS · <a class="terms" href="#">Terms of Service</a></p>
     </footer>
 </body>
 </html>
