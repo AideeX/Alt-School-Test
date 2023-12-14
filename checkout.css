@@ -116,14 +116,19 @@ h5{
   margin-inline-end: 10px;
   color: #548BC5;
 }
-
+/*
 .top-form
 {
-  margin-block-start: 9px;
+
   margin-inline-start: 49px;
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: inline-column;
+  justify-content: space-evenly;
+  width: 580px;
+height: 221px;
+flex-shrink: 0;
 }
+*/
 
 .num-two{
   margin-block-start: 76px;
@@ -191,42 +196,46 @@ letter-spacing: -0.16px;
 
 .credit-label
 {
-  .label {
+
     display: block;
     margin-bottom: 7px;
     margin-inline-start: 49px;
-  }
+margin-block-start: 27px;
 }
 .card-info{
-  margin-block-start: 27px;
-  margin-inline-start: 49px;
   display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  width: max-content;
- 
+  flex-flow: row nowrap;
+  gap: 0;
+  margin-inline-start: 49px;
+  margin-inline-end: 48px;
+  width: 483px;
+  height: 36px;
 }
+
 .card-info input{
-  padding: 5px;
-  margin: 0;
-  flex: 1;
   border-radius: 4px;
-background: #EDEFF2;
-border: 0;
+  background: #EDEFF2;
+  border: 0;
+  color: #646E7A;
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+flex: 0 auto;
 }
 input[name="credit-card"]{
-  margin-inline-start: 49px;
-  width: 418px;
+  width: 400px;
+  padding-inline-start: 10px;
 }
+
 input[name="expiry-date"]{
   width: 35x;
   text-align: end;
 }
 input[name="cvc"]{
-  width: 30px;
+  width: 35px;
   text-align: center;
-  margin-inline-end: 48px;
 }
 
 button
