@@ -17,48 +17,58 @@
             <h2>For Individuals</h2>
             <p class="pg-1">Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.</p>
         </section>
+
         <section class="right-section">
             <form action="/signup" method="post">
                 <div class="form-container">
-                    <div class="left-form">
-                        <label for="first-name" class="one">First Name</label>
-                        <input type="text" name="first-name" id="first-name" class="one" placeholder="Tolu">
-                        <label for="gender" class="one">Gender</label>
-                        <select name="gender" id="gender" class="one">
+                    <div class="one">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Tolu">
+                    </div>
+                    <div class="two">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name">
+                    </div>
+                    <div class="three">
+                        <label for="gender">Gender</label>
+                        <select name="gender" id="gender">
                             <option value="" disabled selected hidden>Select here</option>
                             <option value="female">Female</option>
                             <option value="male">Male</option>
                             <option value="unknown">Prefer not to say</option>
                         </select>
-                        <label for="weight" class="one">Weight (KG)</label>
-                        <input type="number" name="weight" id="weight" placeholder="Enter Weight" class="one">
                     </div>
-                    <div class="right-form">
-                        <label for="last-name" class="two">Last Name</label>
-                        <input type="text" name="last-name" id="last-name" class="two">
-                        <label for="dob" class="two">Date of Birth</label>
-                        <input type="date" name="dob" id="dob" placeholder="Select here" class="two">
-                        <label for="height" class="two">Height (CM)</label>
-                        <input type="number" name="height" id="height" placeholder="Enter height here.." class="two">
+                    <div class="four">
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" name="dob" id="dob" placeholder="Select here">
                     </div>
-                    <div class="bottom-form">
-                        <label for="activity-level" class="activity-level">Activity Level</label>
-                        <select name="activity-level" id="activity-level">
-                            <option value="" disabled selected hidden>Select here</option>
-                            <option value="sedentary">Sedentary</option>
-                            <option value="moderate">Moderately Active</option>
-                            <option value="extreme">Extremely Active</option>
-                        </select>
-                        <label for="password" class="password">Password</label>
-                        <div class="pwd-container">
-                            <input type="password" name="password" id="password">
-                            <span class="material-symbols-outlined">visibility</span>
-                        </div>
-                        <button type="submit">Register</button>
+                    <div class="five">
+                        <label for="weight">Weight (KG)</label>
+                        <input type="number" name="weight" id="weight" placeholder="Enter Weight">
+                    </div>
+                    <div class="six">
+                        <label for="height">Height (CM)</label>
+                        <input type="number" name="height" id="height" placeholder="Enter height here..">
                     </div>
                 </div>
-                <p class="pg-2">By clicking Register, you agree to our <a href="http://">Terms of Use</a> and our <a href="http://">Privacy Policy</a></p>
+    
+                <div class="bottom-form">
+                    <label for="activity-level" class="activity-level">Activity Level</label>
+                    <select name="activity-level" id="activity-level">
+                        <option value="" disabled selected hidden>Select here</option>
+                        <option value="sedentary">Sedentary</option>
+                        <option value="moderate">Moderately Active</option>
+                        <option value="extreme">Extremely Active</option>
+                    </select>
+                    <label for="password" class="password">Password</label>
+                    <div class="pwd-container">
+                        <input type="password" name="password" id="password">
+                        <span class="material-symbols-outlined">visibility</span>
+                    </div>
+                    <button type="submit">Register</button>
+                </div>
             </form>
+            <p class="pg-2">By clicking Register, you agree to our <a href="#">Terms of Use</a> and our <a href="http://">Privacy Policy</a></p>
         </section>
     </main>
 </body>
